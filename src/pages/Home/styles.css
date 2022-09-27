@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.container header {
+  margin: 84px 0 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.container header div.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container header div.profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.container input {
+  width: 50%;
+  padding: 24px;
+  font-size: 16px;
+  border: 0;
+
+  background: #E6E6E6;
+}
+
+.container button[type='button'] {
+  margin-top: 20px;
+  padding: 20px;
+  border: 0;
+  border-radius: 5px;
+  background: rgb(43, 94, 206);
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFF;
+  cursor: pointer;
+  transition: filter 0.2s;
+  margin-bottom: 70px;
+  width: 50%;
+}
+
+.container button:hover {
+  filter: brightness(0.9);
+}
